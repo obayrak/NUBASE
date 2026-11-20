@@ -1,4 +1,5 @@
 # NUBASE2020 · Decay Systematics Explorer
+**▶ Live app: [obayrak.github.io/NUBASE](https://obayrak.github.io/NUBASE/)**
 
 An interactive, single-file web app for exploring nuclear ground-state properties and decay systematics from the **NUBASE2020** evaluation. It covers mass and binding energies, drip lines, empirical half-life laws, WKB barrier-penetration calculations, spontaneous fission, and Bateman decay chains, all running in the browser.
 
