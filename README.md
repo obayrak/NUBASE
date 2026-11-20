@@ -6,31 +6,6 @@ The full dataset (3,558 ground states) is embedded in the HTML. There is no back
 
 ---
 
-## Quick start
-
-```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-open nubase.html        # macOS
-xdg-open nubase.html    # Linux
-start nubase.html       # Windows
-```
-
-You can also serve it locally:
-
-```bash
-python3 -m http.server 8000
-# then visit http://localhost:8000/nubase.html
-```
-
-### GitHub Pages
-
-Rename `nubase.html` to `index.html` (or add an `index.html` that redirects to it), then enable **Settings → Pages → Deploy from branch**. The app will be live at `https://<your-username>.github.io/<your-repo>/`.
-
-> An internet connection is needed on first load for Plotly, MathJax and Google Fonts, which come from CDNs.
-
----
-
 ## Features
 
 The app is organised into twelve tabs that all draw on the same embedded dataset.
@@ -96,8 +71,6 @@ Nuclear data comes from the **NUBASE2020** evaluation:
 > F. G. Kondev, M. Wang, W. J. Huang, S. Naimi, and G. Audi, "The NUBASE2020 evaluation of nuclear physics properties," *Chinese Physics C* **45**, 030001 (2021). doi:[10.1088/1674-1137/abddae](https://doi.org/10.1088/1674-1137/abddae)
 
 Reference tables: [IAEA Nuclear Data Services · NUBASE](https://www-nds.iaea.org/relnsd/nubase/nubase_min.html)
-
-If you use this tool in published work, please cite the NUBASE2020 paper above.
 
 ---
 
